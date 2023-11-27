@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="Intro.html">My Intro </a></li>
+          <li><a href="Service.html">Services</a></li>
+          <li><a href="Resume.html"> Resume </a></li>
+          <li><a href="contact.html"> Contact Me </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+     <div class="intocontainer">
+      <div class="devinfo">
+        <div class="hello"> Hi I am</div>
+        <div class="Name"> Muhammad Rafay</div>
+        <div class="About">Linux Admin,Devops Engineer</div>
+        <div class="MoreAbout"> I am Linux Admin ,i have extensive Knowledge about linux and i have 1+ experiance in linux including Ubuntu,centos.</div>
+        <div class="buttons"> 
+          <button> Download Resume</button> 
+          <button> Contact Me</button>
+        </div>
+
+
+
+
+       </div>
+        <div class="devpic"><img src="dev.png" alt="Muhammad"></div>
+      </div>
+     
+    </div>
+    </div>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar{
+         background-color:rgb(211 211 211);  
+        width: 300px;
+        font-family: 'fira sans',sans-serif;
+        height: 105vh;
+    }
+    .sidebar nav{
+        padding: 25px;
+    }
+    .sidebar nav li{
+        list-style: none;
+        font-size: 25px;
+        padding: 30px 0;
+    }
+    .sidebar nav li a{
+        text-decoration: none;
+        color: black;   
+    }
+    .main{
+        /* background-color: yellow;  */
+        width: 90vw;
+        height: 52vw;
+       
+    }
+    .container{
+        display: flex;
+    }
+    .intocontainer{
+          /* background-color: rgb(96, 221, 238);     */
+        height: 70vh; 
+        width: 70vw ;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .devinfo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Source Code Pro', monospace;
+    }
+    .hello{
+        font-size: 50px;
+    }
+    .Name{
+        font-size: 40px;
+        font-family: 'fira sans',sans-serif;
+    }
+    .About{
+        font-size: 20px;
+    }
+    .MoreAbout{
+        font-size: 12px;
+        font-family: 'fira sans',sans-serif;
+    
+    }
+    .buttons{
+        margin-top: 35px;
+    }
+    .buttons button{
+        padding: 12px;
+        border-radius: 30px;
+        color: white;   
+        background-color: dodgerblue;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .buttons button:hover{
+        background-color: white;    
+        color: dodgerblue;
+    }
+    
+    .devpic img{
+        height: 70vh;
+       
+    }
+    </style>
+  </body>
+</html>
